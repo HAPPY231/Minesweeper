@@ -1,0 +1,48 @@
+th,tr,td,table{
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 3px;
+}
+#app{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #c0c0c0;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  align-items: flex-end;
+}
+#options{
+  margin: auto;
+}
+#options a{
+  text-decoration: none;
+  color: black;
+}
+.underline{
+  text-decoration: underline !important;
+}
+.game{
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+.window{
+  width: 16px;
+  height: 16px;
+}
+.window img{
+    height: 16px;
+    width: 16px;
+    aspect-ratio: 16/16;
+}
+.timer{
+  display: flex;
+}
